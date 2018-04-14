@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/KotlinNativeExample.iml" filepath="$PROJECT_DIR$/.idea/modules/KotlinNativeExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/platforms/android/android.iml" filepath="$PROJECT_DIR$/.idea/modules/platforms/android/android.iml" group="platforms/android" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/platforms/android/android_main.iml" filepath="$PROJECT_DIR$/.idea/modules/platforms/android/android_main.iml" group="platforms/android" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/platforms/android/android_test.iml" filepath="$PROJECT_DIR$/.idea/modules/platforms/android/android_test.iml" group="platforms/android" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/common.iml" filepath="$PROJECT_DIR$/.idea/modules/common/common.iml" group="common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/common_main.iml" filepath="$PROJECT_DIR$/.idea/modules/common/common_main.iml" group="common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/common_test.iml" filepath="$PROJECT_DIR$/.idea/modules/common/common_test.iml" group="common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/platforms/ios/ios.iml" filepath="$PROJECT_DIR$/.idea/modules/platforms/ios/ios.iml" group="platforms/ios" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/platforms/platforms.iml" filepath="$PROJECT_DIR$/.idea/modules/platforms/platforms.iml" group="platforms" />
+    </modules>
+  </component>
+</project>

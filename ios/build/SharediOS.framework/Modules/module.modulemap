@@ -1,0 +1,6 @@
+framework module SharediOS {
+    umbrella header "SharediOS.h"
+
+    export *
+    module * { export * }
+}
