@@ -22,12 +22,12 @@ class CreateCartController: UIViewController {
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         switch segue.identifier {
-        case "showProducts"?:
-            let productsController = segue.destination as! ProductsViewController
-            productsController.cart = SOSCart(name: nameField.text!)
-            productsController.products = []
-            for i in 1...10 {
-                productsController.products.append(SOSProduct(name: "Product \(i)"))
+        case "showStore"?:
+            let store = segue.destination as! StoreViewController
+            store.cart = SOSCart(name: nameField.text!)
+            store.products = []
+            for _ in 1...10 {
+                store.products.append(SOSProduct(name: "Playstation 4", price: 399.95, description: "Playstation 4 gaming console", productImage: 1))
             }
         default:
             fatalError("No segue found")

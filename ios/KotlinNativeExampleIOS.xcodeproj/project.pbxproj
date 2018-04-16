@@ -14,7 +14,7 @@
 		687D71C52072A22500CEA7F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 687D71C32072A22500CEA7F7 /* LaunchScreen.storyboard */; };
 		68855C8420735E9500A9A71C /* SharediOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 68855C8320735E9500A9A71C /* SharediOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		68855C8520735EA400A9A71C /* SharediOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68855C8320735E9500A9A71C /* SharediOS.framework */; };
-		68E3FD972073C3630080B81F /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E3FD962073C3630080B81F /* ProductsViewController.swift */; };
+		68E3FD972073C3630080B81F /* StoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E3FD962073C3630080B81F /* StoreViewController.swift */; };
 		68E3FD9A2073C4A60080B81F /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E3FD992073C4A60080B81F /* ProductCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -41,7 +41,7 @@
 		687D71C42072A22500CEA7F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		687D71C62072A22500CEA7F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		68855C8320735E9500A9A71C /* SharediOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SharediOS.framework; path = build/SharediOS.framework; sourceTree = "<group>"; };
-		68E3FD962073C3630080B81F /* ProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewController.swift; sourceTree = "<group>"; };
+		68E3FD962073C3630080B81F /* StoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreViewController.swift; sourceTree = "<group>"; };
 		68E3FD992073C4A60080B81F /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -57,6 +57,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6848D50920849F390003311C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				68E3FD962073C3630080B81F /* StoreViewController.swift */,
+				687D71BC2072A22500CEA7F7 /* CreateCartController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		687D71AE2072A22500CEA7F7 = {
 			isa = PBXGroup;
 			children = (
@@ -78,14 +87,13 @@
 		687D71B92072A22500CEA7F7 /* KotlinNativeExampleIOS */ = {
 			isa = PBXGroup;
 			children = (
+				6848D50920849F390003311C /* ViewControllers */,
 				68E3FD982073C4960080B81F /* TableCells */,
 				687D71BA2072A22500CEA7F7 /* AppDelegate.swift */,
-				687D71BC2072A22500CEA7F7 /* CreateCartController.swift */,
 				687D71BE2072A22500CEA7F7 /* Main.storyboard */,
 				687D71C12072A22500CEA7F7 /* Assets.xcassets */,
 				687D71C32072A22500CEA7F7 /* LaunchScreen.storyboard */,
 				687D71C62072A22500CEA7F7 /* Info.plist */,
-				68E3FD962073C3630080B81F /* ProductsViewController.swift */,
 			);
 			path = KotlinNativeExampleIOS;
 			sourceTree = "<group>";
@@ -196,7 +204,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68E3FD972073C3630080B81F /* ProductsViewController.swift in Sources */,
+				68E3FD972073C3630080B81F /* StoreViewController.swift in Sources */,
 				68E3FD9A2073C4A60080B81F /* ProductCell.swift in Sources */,
 				687D71BD2072A22500CEA7F7 /* CreateCartController.swift in Sources */,
 				687D71BB2072A22500CEA7F7 /* AppDelegate.swift in Sources */,

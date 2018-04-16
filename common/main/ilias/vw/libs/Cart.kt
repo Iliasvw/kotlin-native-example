@@ -1,12 +1,8 @@
 package ilias.vw.libs
 
-class Cart {
-    var name: String
+class Cart constructor(name: String) {
+    var name: String = name
     private var cartLines: List<CartLine> = mutableListOf()
-
-    constructor(name: String) {
-        this.name = name
-    }
 
     fun getCartLines(): List<CartLine> {
         return this.cartLines
@@ -17,7 +13,7 @@ class Cart {
     }
 
     fun getTotalPrice(): Double {
-        var totalPrice: Double = 0.0
+        var totalPrice = 0.0
 
         for (line in cartLines) {
             totalPrice += line.getTotalPrice()

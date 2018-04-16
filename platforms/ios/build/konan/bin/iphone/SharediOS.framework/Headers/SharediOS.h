@@ -28,6 +28,7 @@ __attribute__((objc_subclassing_restricted))
 -(NSArray<SOSCartLine*>*)getCartLines NS_SWIFT_NAME(getCartLines());
 -(void)addCartLineCartLine:(SOSCartLine*)cartLine NS_SWIFT_NAME(addCartLine(cartLine:));
 -(double)getTotalPrice NS_SWIFT_NAME(getTotalPrice());
+-(void)removeCartLineCartLine:(SOSCartLine*)cartLine NS_SWIFT_NAME(removeCartLine(cartLine:));
 @property NSString* name;
 @end;
 

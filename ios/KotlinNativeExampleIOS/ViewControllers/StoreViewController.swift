@@ -1,18 +1,16 @@
 import UIKit
 import SharediOS
 
-class ProductsViewController: UIViewController {
+class StoreViewController: UIViewController {
     var cart: SOSCart!
     var products: [SOSProduct]!
-    //private var selectedPath: IndexPath!
-    @IBOutlet weak var headLabel: UILabel!
     
     override func viewDidLoad() {
-        self.headLabel.text = self.cart.name
+        //self.navigationItem.title = self.cart.name
     }
 }
 
-extension ProductsViewController: UITableViewDelegate {
+extension StoreViewController: UITableViewDelegate {
     /*func tableView(_ tableView: UITableView, trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
         let editAction = UIContextualAction(style: .normal, title: "Edit") {
             (action, view, completionHandler) in
@@ -33,7 +31,11 @@ extension ProductsViewController: UITableViewDelegate {
     }*/
 }
 
-extension ProductsViewController: UITableViewDataSource {
+extension StoreViewController: UITableViewDataSource {
+    
+    /*func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 75
+    }*/
     
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1
