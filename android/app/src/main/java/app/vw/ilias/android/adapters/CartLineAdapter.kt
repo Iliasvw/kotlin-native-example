@@ -1,9 +1,6 @@
 package app.vw.ilias.android.adapters
 
-import android.app.Activity
-import android.content.Context
 import android.support.v7.widget.RecyclerView
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import app.vw.ilias.android.R
@@ -12,8 +9,6 @@ import app.vw.ilias.android.adapters.viewholders.CartLineViewHolder
 import app.vw.ilias.android.utils.SharedPrefsUtils
 import ilias.vw.libs.Cart
 import ilias.vw.libs.CartLine
-import ilias.vw.libs.Product
-import kotlinx.android.synthetic.main.row_layout_cartline.*
 import kotlinx.android.synthetic.main.row_layout_cartline.view.*
 
 class CartLineAdapter(cart: Cart, list: List<CartLine>, private val activity: CheckoutActivity) : RecyclerView.Adapter<CartLineViewHolder>() {
@@ -35,8 +30,9 @@ class CartLineAdapter(cart: Cart, list: List<CartLine>, private val activity: Ch
     override fun onBindViewHolder(holder: CartLineViewHolder, position: Int) {
         holder.setData(list[position])
         holder.itemView.checkout_product_delete.setOnClickListener({
-            list -= list[position]
-            this.cart.removeCartLine(list[position])
+            var cartLine: CartLine = list[position]
+            list -= cartLine
+            this.cart.removeCartLine(cartLine)
             SharedPrefsUtils.cacheCart(this.cart, activity)
             this.activity.updateTotalPrice()
             notifyDataSetChanged()

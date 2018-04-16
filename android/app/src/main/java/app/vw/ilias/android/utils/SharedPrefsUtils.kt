@@ -24,7 +24,6 @@ class SharedPrefsUtils {
             var sharedPrefs: SharedPreferences = activity.getSharedPreferences(PREFS_FILE, Context.MODE_PRIVATE)
             var gson: Gson = Gson()
             var json: String = sharedPrefs.getString("cart", "")
-            Log.i("Cart", json)
             if(json == "") {
                 return null
             }
