@@ -9,6 +9,12 @@ class Cart constructor(name: String) {
     }
 
     fun addCartLine(cartLine: CartLine) {
+        for (item in cartLines) {
+            if (item.getProduct().getName() == cartLine.getProduct().getName()) {
+                item.add(cartLine.getQuantity())
+                return
+            }
+        }
         this.cartLines += cartLine
     }
 

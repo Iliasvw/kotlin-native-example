@@ -7,15 +7,12 @@ import android.support.v7.widget.DefaultItemAnimator
 import android.support.v7.widget.LinearLayoutManager
 import android.support.v7.widget.RecyclerView
 import android.view.Menu
-import android.view.View
 import android.widget.TextView
 import app.vw.ilias.android.R
 import app.vw.ilias.android.adapters.ProductAdapter
 import app.vw.ilias.android.utils.SharedPrefsUtils
 import ilias.vw.libs.Cart
 import ilias.vw.libs.Product
-import java.security.AccessController.getContext
-import android.view.MenuInflater
 import android.view.MenuItem
 
 
@@ -57,7 +54,8 @@ class StoreActivity : AppCompatActivity() {
         val id = item.itemId
         when (id) {
             R.id.checkout -> goToCheckout()
-            else -> {}
+            else -> {
+            }
         }
 
         return super.onOptionsItemSelected(item)

@@ -2,7 +2,7 @@ package ilias.vw.libs
 
 class CartLine {
     private val product: Product
-    private val quantity: Int
+    private var quantity: Int
 
     constructor(product: Product, quantity: Int) {
         this.product = product
@@ -19,5 +19,9 @@ class CartLine {
 
     fun getTotalPrice(): Double {
         return product.getPrice() * quantity
+    }
+
+    fun add(quantity: Int) {
+        this.quantity += quantity
     }
 }

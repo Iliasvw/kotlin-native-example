@@ -12,7 +12,7 @@ class ProductViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
 
     fun setData(product: Product) {
         itemView.name.text = product.getName()
-        itemView.price.text = "€" + product.getPrice().toString()
+        itemView.price.text = String.format("€%.2f", product.getPrice())
         itemView.productImage.setImageResource(product.getProductImage())
         val context = itemView.productImage.context
         Picasso.with(context).load(product.getProductImage()).resize(400, 400)

@@ -8,8 +8,8 @@ actual class Product: Serializable {
     private val description: String
     private val productImage: Int
 
-    actual constructor(name: String, price: Double, description: String, productImage: Int) {
-        this.name = name;
+    constructor(name: String, price: Double, description: String, productImage: Int) {
+        this.name = name
         this.price = price
         this.description = description
         this.productImage = productImage
@@ -27,7 +27,7 @@ actual class Product: Serializable {
         return this.description
     }
 
-    actual fun getProductImage(): Int {
+    fun getProductImage(): Int {
         return this.productImage
     }
 }

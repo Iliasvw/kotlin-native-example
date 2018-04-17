@@ -2,34 +2,25 @@ import UIKit
 import SharediOS
 
 class StoreViewController: UIViewController {
-    var cart: SOSCart!
     var products: [SOSProduct]!
+    @IBOutlet weak var tableView: UITableView!
     
-    override func viewDidLoad() {
-        //self.navigationItem.title = self.cart.name
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        switch segue.identifier {
+        case "showProductDetails"?:
+            let selection = tableView.indexPathForSelectedRow!
+            let prodDetailsController = segue.destination as! ProductDetailViewController
+            prodDetailsController.product = products[selection.row]
+            tableView.deselectRow(at: selection, animated: true)
+        case "showCheckout"?:
+            break
+        default:
+            fatalError("No segue found")
+        }
     }
 }
 
-extension StoreViewController: UITableViewDelegate {
-    /*func tableView(_ tableView: UITableView, trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
-        let editAction = UIContextualAction(style: .normal, title: "Edit") {
-            (action, view, completionHandler) in
-            self.indexPathToEdit = indexPath
-            self.performSegue(withIdentifier: "editSpeler", sender: self)
-            completionHandler(true)
-        }
-        
-        let deleteAction = UIContextualAction(style: .destructive, title: "Delete") {
-            (action, view, completionHandler) in
-            self.spelers.remove(at: indexPath.row)
-            self.tableView.deleteRows(at: [indexPath], with: .automatic)
-            self.ref.child("teams").child(self.userID).child("spelers").setValue(JSONConverter.spelersToDict(spelers: self.spelers))
-            completionHandler(true)
-        }
-        
-        return UISwipeActionsConfiguration(actions: [deleteAction, editAction])
-    }*/
-}
+extension StoreViewController: UITableViewDelegate {}
 
 extension StoreViewController: UITableViewDataSource {
     

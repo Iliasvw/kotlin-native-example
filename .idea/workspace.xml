@@ -2,28 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68f0f62f-c309-447e-9b41-036d8424b4c0" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ios/KotlinNativeExampleIOS/Assets.xcassets/Contents.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ios/KotlinNativeExampleIOS/Assets.xcassets/ps4.imageset/Contents.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ios/KotlinNativeExampleIOS/Assets.xcassets/ps4.imageset/PlayStation_4_x1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ios/KotlinNativeExampleIOS/Assets.xcassets/ps4.imageset/PlayStation_4_x2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ios/KotlinNativeExampleIOS/Assets.xcassets/ps4.imageset/PlayStation_4_x3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ios/KotlinNativeExampleIOS/TableCells/CartLineCell.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ios/KotlinNativeExampleIOS/Utils/CachingUtils.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ios/KotlinNativeExampleIOS/ViewControllers/CheckoutViewController.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ios/KotlinNativeExampleIOS/ViewControllers/ProductDetailViewController.swift" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.0/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.0/fileHashes/fileHashes.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.0/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.0/fileHashes/fileHashes.lock" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.0/taskHistory/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/4.0/taskHistory/fileSnapshots.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.0/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.0/taskHistory/taskHistory.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.0/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.0/taskHistory/taskHistory.lock" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/java/app/vw/ilias/android/activities/StoreActivity.kt" afterPath="$PROJECT_DIR$/android/app/src/main/java/app/vw/ilias/android/activities/StoreActivity.kt" />
       <change beforePath="$PROJECT_DIR$/build/kotlin-build/artifact-difference.tab" afterPath="$PROJECT_DIR$/build/kotlin-build/artifact-difference.tab" />
       <change beforePath="$PROJECT_DIR$/build/kotlin-build/artifact-difference.tab.values.at" afterPath="$PROJECT_DIR$/build/kotlin-build/artifact-difference.tab.values.at" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/kotlin/main/ilias/vw/libs/Cart.kotlin_metadata" afterPath="$PROJECT_DIR$/common/build/classes/kotlin/main/ilias/vw/libs/Cart.kotlin_metadata" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/kotlin/main/ilias/vw/libs/CartLine.kotlin_metadata" afterPath="$PROJECT_DIR$/common/build/classes/kotlin/main/ilias/vw/libs/CartLine.kotlin_metadata" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/kotlin/main/ilias/vw/libs/Product.kotlin_metadata" afterPath="$PROJECT_DIR$/common/build/classes/kotlin/main/ilias/vw/libs/Product.kotlin_metadata" />
+      <change beforePath="$PROJECT_DIR$/common/build/libs/common-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/common/build/libs/common-1.0-SNAPSHOT.jar" />
       <change beforePath="$PROJECT_DIR$/common/build/libs/common.jar" afterPath="$PROJECT_DIR$/common/build/libs/common.jar" />
+      <change beforePath="$PROJECT_DIR$/common/build/reports/tests/test/index.html" afterPath="$PROJECT_DIR$/common/build/reports/tests/test/index.html" />
       <change beforePath="$PROJECT_DIR$/common/main/ilias/vw/libs/Cart.kt" afterPath="$PROJECT_DIR$/common/main/ilias/vw/libs/Cart.kt" />
+      <change beforePath="$PROJECT_DIR$/common/main/ilias/vw/libs/CartLine.kt" afterPath="$PROJECT_DIR$/common/main/ilias/vw/libs/CartLine.kt" />
       <change beforePath="$PROJECT_DIR$/common/main/ilias/vw/libs/Product.kt" afterPath="$PROJECT_DIR$/common/main/ilias/vw/libs/Product.kt" />
+      <change beforePath="$PROJECT_DIR$/ios/KotlinNativeExampleIOS.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/ios/KotlinNativeExampleIOS.xcodeproj/project.pbxproj" />
       <change beforePath="$PROJECT_DIR$/ios/KotlinNativeExampleIOS.xcodeproj/project.xcworkspace/xcuserdata/ilias.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/ios/KotlinNativeExampleIOS.xcodeproj/project.xcworkspace/xcuserdata/ilias.xcuserdatad/UserInterfaceState.xcuserstate" />
-      <change beforePath="$PROJECT_DIR$/ios/KotlinNativeExampleIOS/CreateCartController.swift" afterPath="$PROJECT_DIR$/ios/KotlinNativeExampleIOS/CreateCartController.swift" />
+      <change beforePath="$PROJECT_DIR$/ios/KotlinNativeExampleIOS.xcodeproj/xcuserdata/ilias.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="$PROJECT_DIR$/ios/KotlinNativeExampleIOS.xcodeproj/xcuserdata/ilias.xcuserdatad/xcschemes/xcschememanagement.plist" />
+      <change beforePath="$PROJECT_DIR$/ios/KotlinNativeExampleIOS/AppDelegate.swift" afterPath="$PROJECT_DIR$/ios/KotlinNativeExampleIOS/AppDelegate.swift" />
+      <change beforePath="$PROJECT_DIR$/ios/KotlinNativeExampleIOS/Assets.xcassets/AppIcon.appiconset/Contents.json" afterPath="$PROJECT_DIR$/ios/KotlinNativeExampleIOS/Assets.xcassets/AppIcon.appiconset/Contents.json" />
+      <change beforePath="$PROJECT_DIR$/ios/KotlinNativeExampleIOS/Base.lproj/Main.storyboard" afterPath="$PROJECT_DIR$/ios/KotlinNativeExampleIOS/Base.lproj/Main.storyboard" />
+      <change beforePath="$PROJECT_DIR$/ios/KotlinNativeExampleIOS/TableCells/ProductCell.swift" afterPath="$PROJECT_DIR$/ios/KotlinNativeExampleIOS/TableCells/ProductCell.swift" />
+      <change beforePath="$PROJECT_DIR$/ios/KotlinNativeExampleIOS/ViewControllers/CreateCartController.swift" afterPath="$PROJECT_DIR$/ios/KotlinNativeExampleIOS/ViewControllers/CreateCartController.swift" />
+      <change beforePath="$PROJECT_DIR$/ios/KotlinNativeExampleIOS/ViewControllers/StoreViewController.swift" afterPath="$PROJECT_DIR$/ios/KotlinNativeExampleIOS/ViewControllers/StoreViewController.swift" />
       <change beforePath="$PROJECT_DIR$/ios/build/SharediOS.framework.dSYM/Contents/Resources/DWARF/SharediOS" afterPath="$PROJECT_DIR$/ios/build/SharediOS.framework.dSYM/Contents/Resources/DWARF/SharediOS" />
       <change beforePath="$PROJECT_DIR$/ios/build/SharediOS.framework/Headers/SharediOS.h" afterPath="$PROJECT_DIR$/ios/build/SharediOS.framework/Headers/SharediOS.h" />
-      <change beforePath="$PROJECT_DIR$/ios/build/SharediOS.framework/Info.plist" afterPath="$PROJECT_DIR$/ios/build/SharediOS.framework/Info.plist" />
       <change beforePath="$PROJECT_DIR$/ios/build/SharediOS.framework/SharediOS" afterPath="$PROJECT_DIR$/ios/build/SharediOS.framework/SharediOS" />
       <change beforePath="$PROJECT_DIR$/platforms/android/build/classes/kotlin/main/ilias/vw/libs/Cart.class" afterPath="$PROJECT_DIR$/platforms/android/build/classes/kotlin/main/ilias/vw/libs/Cart.class" />
       <change beforePath="$PROJECT_DIR$/platforms/android/build/classes/kotlin/main/ilias/vw/libs/CartLine.class" afterPath="$PROJECT_DIR$/platforms/android/build/classes/kotlin/main/ilias/vw/libs/CartLine.class" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/build/classes/kotlin/main/ilias/vw/libs/Product.class" afterPath="$PROJECT_DIR$/platforms/android/build/classes/kotlin/main/ilias/vw/libs/Product.class" />
       <change beforePath="$PROJECT_DIR$/platforms/android/build/kotlin/compileKotlin/build-history.bin" afterPath="$PROJECT_DIR$/platforms/android/build/kotlin/compileKotlin/build-history.bin" />
       <change beforePath="$PROJECT_DIR$/platforms/android/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab" afterPath="$PROJECT_DIR$/platforms/android/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab" />
       <change beforePath="$PROJECT_DIR$/platforms/android/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.values.at" afterPath="$PROJECT_DIR$/platforms/android/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.values.at" />
@@ -51,15 +69,25 @@
       <change beforePath="$PROJECT_DIR$/platforms/android/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.values.at" afterPath="$PROJECT_DIR$/platforms/android/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.values.at" />
       <change beforePath="$PROJECT_DIR$/platforms/android/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab_i" afterPath="$PROJECT_DIR$/platforms/android/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab_i" />
       <change beforePath="$PROJECT_DIR$/platforms/android/build/kotlin/compileKotlin/last-build.bin" afterPath="$PROJECT_DIR$/platforms/android/build/kotlin/compileKotlin/last-build.bin" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/build/libs/platforms-android.jar" afterPath="$PROJECT_DIR$/platforms/android/build/libs/platforms-android.jar" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/build/kotlin/compileTestKotlin/build-history.bin" afterPath="$PROJECT_DIR$/platforms/android/build/kotlin/compileTestKotlin/build-history.bin" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/build/kotlin/compileTestKotlin/last-build.bin" afterPath="$PROJECT_DIR$/platforms/android/build/kotlin/compileTestKotlin/last-build.bin" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/build/libs/android-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/platforms/android/build/libs/android-1.0-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/build/reports/tests/test/classes/ilias.vw.libs.TestSampleAndroid.html" afterPath="$PROJECT_DIR$/platforms/android/build/reports/tests/test/classes/ilias.vw.libs.TestSampleAndroid.html" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/build/reports/tests/test/classes/ilias.vw.libs.TestSampleCommon.html" afterPath="$PROJECT_DIR$/platforms/android/build/reports/tests/test/classes/ilias.vw.libs.TestSampleCommon.html" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/build/reports/tests/test/index.html" afterPath="$PROJECT_DIR$/platforms/android/build/reports/tests/test/index.html" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/build/reports/tests/test/packages/ilias.vw.libs.html" afterPath="$PROJECT_DIR$/platforms/android/build/reports/tests/test/packages/ilias.vw.libs.html" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/build/test-results/test/TEST-ilias.vw.libs.TestSampleAndroid.xml" afterPath="$PROJECT_DIR$/platforms/android/build/test-results/test/TEST-ilias.vw.libs.TestSampleAndroid.xml" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/build/test-results/test/TEST-ilias.vw.libs.TestSampleCommon.xml" afterPath="$PROJECT_DIR$/platforms/android/build/test-results/test/TEST-ilias.vw.libs.TestSampleCommon.xml" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/build/test-results/test/binary/results.bin" afterPath="$PROJECT_DIR$/platforms/android/build/test-results/test/binary/results.bin" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/main/ilias/vw/libs/Product.kt" afterPath="$PROJECT_DIR$/platforms/android/main/ilias/vw/libs/Product.kt" />
       <change beforePath="$PROJECT_DIR$/platforms/ios/build/konan/bin/iphone/SharediOS.framework.dSYM/Contents/Resources/DWARF/SharediOS" afterPath="$PROJECT_DIR$/platforms/ios/build/konan/bin/iphone/SharediOS.framework.dSYM/Contents/Resources/DWARF/SharediOS" />
       <change beforePath="$PROJECT_DIR$/platforms/ios/build/konan/bin/iphone/SharediOS.framework/Headers/SharediOS.h" afterPath="$PROJECT_DIR$/platforms/ios/build/konan/bin/iphone/SharediOS.framework/Headers/SharediOS.h" />
       <change beforePath="$PROJECT_DIR$/platforms/ios/build/konan/bin/iphone/SharediOS.framework/SharediOS" afterPath="$PROJECT_DIR$/platforms/ios/build/konan/bin/iphone/SharediOS.framework/SharediOS" />
       <change beforePath="$PROJECT_DIR$/platforms/ios/build/konan/bin/iphone_sim/SharediOS.framework.dSYM/Contents/Resources/DWARF/SharediOS" afterPath="$PROJECT_DIR$/platforms/ios/build/konan/bin/iphone_sim/SharediOS.framework.dSYM/Contents/Resources/DWARF/SharediOS" />
       <change beforePath="$PROJECT_DIR$/platforms/ios/build/konan/bin/iphone_sim/SharediOS.framework/Headers/SharediOS.h" afterPath="$PROJECT_DIR$/platforms/ios/build/konan/bin/iphone_sim/SharediOS.framework/Headers/SharediOS.h" />
       <change beforePath="$PROJECT_DIR$/platforms/ios/build/konan/bin/iphone_sim/SharediOS.framework/SharediOS" afterPath="$PROJECT_DIR$/platforms/ios/build/konan/bin/iphone_sim/SharediOS.framework/SharediOS" />
-      <change beforePath="$PROJECT_DIR$/platforms/ios/build/konan/bin/macbook/shared-ios-test.kexe" afterPath="$PROJECT_DIR$/platforms/ios/build/konan/bin/macbook/shared-ios-test.kexe" />
       <change beforePath="$PROJECT_DIR$/platforms/ios/build/konan/libs/macbook/test-library.klib" afterPath="$PROJECT_DIR$/platforms/ios/build/konan/libs/macbook/test-library.klib" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/main/ilias/vw/libs/Product.kt" afterPath="$PROJECT_DIR$/platforms/ios/main/ilias/vw/libs/Product.kt" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -170,41 +198,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/build.gradle">
+      <file leaf-file-name="Product.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/platforms/android/main/ilias/vw/libs/Product.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestSampleCommon.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/test/ilias/vw/libs/TestSampleCommon.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="193">
+              <caret line="17" column="19" lean-forward="false" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Product.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/platforms/android/main/ilias/vw/libs/Product.kt">
+        <entry file="file://$PROJECT_DIR$/platforms/ios/main/ilias/vw/libs/Product.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="14" column="40" lean-forward="false" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+            <state relative-caret-position="30">
+              <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Product.kt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/platforms/ios/main/ilias/vw/libs/Product.kt">
+      <file leaf-file-name="Cart.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/common/main/ilias/vw/libs/Cart.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="16" lean-forward="false" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+            <state relative-caret-position="180">
+              <caret line="12" column="78" lean-forward="false" selection-start-line="12" selection-start-column="78" selection-end-line="12" selection-end-column="78" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CartLine.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/main/ilias/vw/libs/CartLine.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" column="5" lean-forward="false" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/platforms/android/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="14" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -213,8 +251,8 @@
       <file leaf-file-name="Product.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/common/main/ilias/vw/libs/Product.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+            <state relative-caret-position="75">
+              <caret line="5" column="32" lean-forward="false" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -1950,7 +1988,6 @@
         <option value="$PROJECT_DIR$/platforms/android/test/ilias/vw/libs/TestSample.kt" />
         <option value="$PROJECT_DIR$/platforms/android/test/ilias/vw/libs/TestSampleAndroid.kt" />
         <option value="$PROJECT_DIR$/platforms/ios/test/ilias/vw/libs/TestSample.kt" />
-        <option value="$PROJECT_DIR$/common/main/ilias/vw/libs/Cart.kt" />
         <option value="$PROJECT_DIR$/common/main/ilias/vw/libs/OrderLine.kt" />
         <option value="$PROJECT_DIR$/android/app/build.gradle" />
         <option value="$PROJECT_DIR$/android/app/src/main/java/app/vw/ilias/android/MainActivity.kt" />
@@ -1959,6 +1996,8 @@
         <option value="$PROJECT_DIR$/common/main/ilias/vw/libs/Product.kt" />
         <option value="$PROJECT_DIR$/platforms/android/main/ilias/vw/libs/Product.kt" />
         <option value="$PROJECT_DIR$/platforms/ios/main/ilias/vw/libs/Product.kt" />
+        <option value="$PROJECT_DIR$/common/main/ilias/vw/libs/CartLine.kt" />
+        <option value="$PROJECT_DIR$/common/main/ilias/vw/libs/Cart.kt" />
       </list>
     </option>
   </component>
@@ -1989,7 +2028,7 @@
     <panes>
       <pane id="Scratches" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -2007,6 +2046,24 @@
               <item name="bachelorproef-praktisch" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="android" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KotlinNativeExample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bachelorproef-praktisch" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="common" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="KotlinNativeExample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bachelorproef-praktisch" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="common" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="KotlinNativeExample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bachelorproef-praktisch" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="common" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="libs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="KotlinNativeExample" type="b2602c69:ProjectViewProjectNode" />
@@ -2078,7 +2135,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2312,16 +2369,16 @@
       <workItem from="1522827909806" duration="2256000" />
       <workItem from="1523025906954" duration="4418000" />
       <workItem from="1523701717451" duration="1093000" />
-      <workItem from="1523868801824" duration="437000" />
+      <workItem from="1523868801824" duration="1347000" />
+      <workItem from="1523877954126" duration="2161000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30313000" />
+    <option name="totallyTimeSpent" value="33384000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -2331,12 +2388,12 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2832618" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28683835" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Google Cloud Storage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3197425" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -2367,7 +2424,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/common/main/ilias/vw/libs/Sample.kt" />
     <entry file="file://$PROJECT_DIR$/common/test/ilias/vw/libs/TestSampleCommon.kt" />
     <entry file="file://$PROJECT_DIR$/platforms/ios/main/ilias/vw/libs/Platform.kt" />
     <entry file="file://$PROJECT_DIR$/platforms/ios/test/ilias/vw/libs/testPlatform.kt" />
@@ -2473,13 +2529,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/common/main/ilias/vw/libs/OrderLine.kt" />
-    <entry file="file://$PROJECT_DIR$/common/main/ilias/vw/libs/Cart.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="40" lean-forward="false" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/build/classes/kotlin/main/ilias/vw/libs/Cart.kotlin_metadata">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -2491,14 +2540,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platforms/android/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -2567,26 +2608,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/android/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="14" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/common/main/ilias/vw/libs/Product.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        <state relative-caret-position="75">
+          <caret line="5" column="32" lean-forward="false" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/platforms/android/main/ilias/vw/libs/Product.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="40" lean-forward="false" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+        <state relative-caret-position="193">
+          <caret line="17" column="19" lean-forward="false" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/platforms/ios/main/ilias/vw/libs/Product.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="16" lean-forward="false" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+        <state relative-caret-position="30">
+          <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/main/ilias/vw/libs/CartLine.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="5" lean-forward="false" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/main/ilias/vw/libs/Cart.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="78" lean-forward="false" selection-start-line="12" selection-start-column="78" selection-end-line="12" selection-end-column="78" />
           <folding />
         </state>
       </provider>

@@ -1,17 +1,12 @@
-//
-//  ViewController.swift
-//  KotlinNativeExampleIOS
-//
-//  Created by Ilias Van Wassenhove on 2/04/18.
-//  Copyright © 2018 Ilias Van Wassenhove. All rights reserved.
-//
-
 import UIKit
-//import KotlinNativeFramework
 import SharediOS
 class CreateCartController: UIViewController {
     @IBOutlet weak var nameField: UITextField!
+    
     override func viewDidLoad() {
+        if(CachingUtils.getCartFromCache() != nil) {
+            performSegue(withIdentifier: "showStore", sender: self)
+        }
         super.viewDidLoad()
     }
 
@@ -24,10 +19,11 @@ class CreateCartController: UIViewController {
         switch segue.identifier {
         case "showStore"?:
             let store = segue.destination as! StoreViewController
-            store.cart = SOSCart(name: nameField.text!)
+            let cart: SOSCart? = SOSCart(name: nameField.text!)
+            CachingUtils.cacheCart(cart: cart!)
             store.products = []
-            for _ in 1...10 {
-                store.products.append(SOSProduct(name: "Playstation 4", price: 399.95, description: "Playstation 4 gaming console", productImage: 1))
+            for i in 1...10 {
+                store.products.append(SOSProduct(name: "Playstation 4\(i)", price: 399.95, description: "Playstation 4 gaming console with description \(i)"))
             }
         default:
             fatalError("No segue found")

@@ -29,6 +29,6 @@ class CheckoutActivity : AppCompatActivity() {
     }
 
     fun updateTotalPrice() {
-        total_price.text = "Total price: €" + this.cart.getTotalPrice()
+        total_price.text = String.format("Total price: € %.2f", this.cart.getTotalPrice())
     }
 }
