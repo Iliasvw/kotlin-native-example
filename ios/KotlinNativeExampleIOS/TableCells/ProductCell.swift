@@ -5,6 +5,7 @@ class ProductCell: UITableViewCell {
     
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var priceLabel: UILabel!
+    @IBOutlet weak var productImage: UIImageView!
     
     var product: SOSProduct! {
         didSet {

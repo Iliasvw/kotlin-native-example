@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "55FF8F0DF202D69012ED96EEA49E9343"
-               BuildableName = "Pods_KotlinNativeExampleIOS.framework"
-               BlueprintName = "Pods-KotlinNativeExampleIOS"
+               BlueprintIdentifier = "4AE6054AB173D5E8934EB6ADEF80DF11"
+               BuildableName = "Toast_Swift.framework"
+               BlueprintName = "Toast-Swift"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "55FF8F0DF202D69012ED96EEA49E9343"
-            BuildableName = "Pods_KotlinNativeExampleIOS.framework"
-            BlueprintName = "Pods-KotlinNativeExampleIOS"
+            BlueprintIdentifier = "4AE6054AB173D5E8934EB6ADEF80DF11"
+            BuildableName = "Toast_Swift.framework"
+            BlueprintName = "Toast-Swift"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

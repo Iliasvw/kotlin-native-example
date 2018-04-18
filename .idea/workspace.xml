@@ -2,17 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68f0f62f-c309-447e-9b41-036d8424b4c0" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.0/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.0/fileHashes/fileHashes.lock" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.0/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.0/taskHistory/taskHistory.lock" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/misc.xml" afterPath="$PROJECT_DIR$/android/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/ios/KotlinNativeExampleIOS.xcodeproj/project.xcworkspace/xcuserdata/ilias.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/ios/KotlinNativeExampleIOS.xcodeproj/project.xcworkspace/xcuserdata/ilias.xcuserdatad/UserInterfaceState.xcuserstate" />
-      <change beforePath="$PROJECT_DIR$/ios/KotlinNativeExampleIOS.xcodeproj/xcuserdata/ilias.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="$PROJECT_DIR$/ios/KotlinNativeExampleIOS.xcodeproj/xcuserdata/ilias.xcuserdatad/xcschemes/xcschememanagement.plist" />
+      <change beforePath="$PROJECT_DIR$/ios/KotlinNativeExampleIOS.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/ios/KotlinNativeExampleIOS.xcodeproj/project.pbxproj" />
       <change beforePath="$PROJECT_DIR$/ios/KotlinNativeExampleIOS.xcworkspace/xcuserdata/ilias.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/ios/KotlinNativeExampleIOS.xcworkspace/xcuserdata/ilias.xcuserdatad/UserInterfaceState.xcuserstate" />
       <change beforePath="$PROJECT_DIR$/ios/KotlinNativeExampleIOS/Base.lproj/Main.storyboard" afterPath="$PROJECT_DIR$/ios/KotlinNativeExampleIOS/Base.lproj/Main.storyboard" />
-      <change beforePath="$PROJECT_DIR$/ios/KotlinNativeExampleIOS/TableCells/CartLineCell.swift" afterPath="$PROJECT_DIR$/ios/KotlinNativeExampleIOS/TableCells/CartLineCell.swift" />
-      <change beforePath="$PROJECT_DIR$/ios/KotlinNativeExampleIOS/TableCells/ProductCell.swift" afterPath="$PROJECT_DIR$/ios/KotlinNativeExampleIOS/TableCells/ProductCell.swift" />
       <change beforePath="$PROJECT_DIR$/ios/KotlinNativeExampleIOS/ViewControllers/CheckoutViewController.swift" afterPath="$PROJECT_DIR$/ios/KotlinNativeExampleIOS/ViewControllers/CheckoutViewController.swift" />
+      <change beforePath="$PROJECT_DIR$/ios/KotlinNativeExampleIOS/ViewControllers/CreateCartController.swift" afterPath="$PROJECT_DIR$/ios/KotlinNativeExampleIOS/ViewControllers/CreateCartController.swift" />
+      <change beforePath="$PROJECT_DIR$/ios/KotlinNativeExampleIOS/ViewControllers/ProductDetailViewController.swift" afterPath="$PROJECT_DIR$/ios/KotlinNativeExampleIOS/ViewControllers/ProductDetailViewController.swift" />
+      <change beforePath="$PROJECT_DIR$/ios/KotlinNativeExampleIOS/ViewControllers/StoreViewController.swift" afterPath="$PROJECT_DIR$/ios/KotlinNativeExampleIOS/ViewControllers/StoreViewController.swift" />
+      <change beforePath="$PROJECT_DIR$/ios/Podfile" afterPath="$PROJECT_DIR$/ios/Podfile" />
+      <change beforePath="$PROJECT_DIR$/ios/Podfile.lock" afterPath="$PROJECT_DIR$/ios/Podfile.lock" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Manifest.lock" afterPath="$PROJECT_DIR$/ios/Pods/Manifest.lock" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/project.pbxproj" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/ilias.xcuserdatad/xcschemes/Pods-KotlinNativeExampleIOS.xcscheme" afterPath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/ilias.xcuserdatad/xcschemes/Pods-KotlinNativeExampleIOS.xcscheme" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/ilias.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/ilias.xcuserdatad/xcschemes/xcschememanagement.plist" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-KotlinNativeExampleIOS/Pods-KotlinNativeExampleIOS-acknowledgements.markdown" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-KotlinNativeExampleIOS/Pods-KotlinNativeExampleIOS-acknowledgements.markdown" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-KotlinNativeExampleIOS/Pods-KotlinNativeExampleIOS-acknowledgements.plist" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-KotlinNativeExampleIOS/Pods-KotlinNativeExampleIOS-acknowledgements.plist" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-KotlinNativeExampleIOS/Pods-KotlinNativeExampleIOS-frameworks.sh" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-KotlinNativeExampleIOS/Pods-KotlinNativeExampleIOS-frameworks.sh" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-KotlinNativeExampleIOS/Pods-KotlinNativeExampleIOS.debug.xcconfig" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-KotlinNativeExampleIOS/Pods-KotlinNativeExampleIOS.debug.xcconfig" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-KotlinNativeExampleIOS/Pods-KotlinNativeExampleIOS.release.xcconfig" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-KotlinNativeExampleIOS/Pods-KotlinNativeExampleIOS.release.xcconfig" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -133,7 +141,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/platforms/ios/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
@@ -173,11 +181,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Product.kt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Product.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/common/main/ilias/vw/libs/Product.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="32" lean-forward="false" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+            <state relative-caret-position="30">
+              <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -1918,11 +1926,11 @@
         <option value="$PROJECT_DIR$/android/app/src/main/java/app/vw/ilias/android/MainActivity.kt" />
         <option value="$PROJECT_DIR$/android/settings.gradle" />
         <option value="$PROJECT_DIR$/android/build.gradle" />
-        <option value="$PROJECT_DIR$/common/main/ilias/vw/libs/Product.kt" />
         <option value="$PROJECT_DIR$/platforms/android/main/ilias/vw/libs/Product.kt" />
         <option value="$PROJECT_DIR$/platforms/ios/main/ilias/vw/libs/Product.kt" />
         <option value="$PROJECT_DIR$/common/main/ilias/vw/libs/CartLine.kt" />
         <option value="$PROJECT_DIR$/common/main/ilias/vw/libs/Cart.kt" />
+        <option value="$PROJECT_DIR$/common/main/ilias/vw/libs/Product.kt" />
       </list>
     </option>
   </component>
@@ -2296,12 +2304,12 @@
       <workItem from="1523701717451" duration="1093000" />
       <workItem from="1523868801824" duration="1347000" />
       <workItem from="1523877954126" duration="2161000" />
-      <workItem from="1523964096600" duration="625000" />
+      <workItem from="1523964096600" duration="761000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34009000" />
+    <option name="totallyTimeSpent" value="34145000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -2467,6 +2475,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2534,14 +2543,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/main/ilias/vw/libs/Product.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="32" lean-forward="false" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/platforms/android/main/ilias/vw/libs/Product.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -2578,6 +2579,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" column="5" lean-forward="false" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/main/ilias/vw/libs/Product.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="6" />
           <folding />
         </state>
       </provider>

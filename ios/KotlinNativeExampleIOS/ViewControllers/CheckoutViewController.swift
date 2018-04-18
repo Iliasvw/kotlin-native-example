@@ -1,3 +1,4 @@
+import Toast_Swift
 import UIKit
 import SharediOS
 
@@ -26,6 +27,7 @@ extension CheckoutViewController: UITableViewDelegate {
             self.cart.removeCartLine(cartLine: cartLine)
             tableView.deleteRows(at: [indexPath], with: .automatic)
             self.editTotalPrice()
+            self.view.makeToast("Cartline deleted!")
             completionHandler(true)
         }
         return UISwipeActionsConfiguration(actions: [deleteAction])

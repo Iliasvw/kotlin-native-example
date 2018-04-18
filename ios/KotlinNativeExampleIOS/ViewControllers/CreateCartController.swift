@@ -1,10 +1,11 @@
+import Toast_Swift
 import UIKit
 import SharediOS
 class CreateCartController: UIViewController {
     @IBOutlet weak var nameField: UITextField!
     
     override func viewDidLoad() {
-        if(CachingUtils.getCartFromCache() != nil) {
+        if CachingUtils.getCartFromCache() != nil {
             performSegue(withIdentifier: "showStore", sender: self)
         }
         super.viewDidLoad()
@@ -12,7 +13,6 @@ class CreateCartController: UIViewController {
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -22,9 +22,11 @@ class CreateCartController: UIViewController {
             let cart: SOSCart? = SOSCart(name: nameField.text!)
             CachingUtils.cacheCart(cart: cart!)
             store.products = []
-            for i in 1...10 {
-                store.products.append(SOSProduct(name: "Playstation 4\(i)", price: 399.95, description: "Playstation 4 gaming console with description \(i)"))
-            }
+            store.products.append(SOSProduct(name: "Playstation 4", price: 399.95, description: "Playstation 4 gaming console"))
+            store.products.append(SOSProduct(name: "Xbox One", price: 324.95, description: "Xbox One gaming console"))
+            store.products.append(SOSProduct(name: "Sony HD TV", price: 699.95, description: "Ultra HD Sony LCV TV"))
+            store.products.append(SOSProduct(name: "Netflix 1 month", price: 9.95, description: "Netflix card to use Netflix for one month"))
+            store.products.append(SOSProduct(name: "Macbook Pro 2017", price: 2399.95, description: "Macbook Pro 2017 with 16GB of RAM and 256GB of HDD"))
             nameField.text = ""
         default:
             fatalError("No segue found")
@@ -33,7 +35,7 @@ class CreateCartController: UIViewController {
     
    @IBAction func createCart() {
         if let text = nameField.text {
-            if(text != "") {
+            if text != "" {
                 performSegue(withIdentifier: "showStore", sender: self)
             }
         }
