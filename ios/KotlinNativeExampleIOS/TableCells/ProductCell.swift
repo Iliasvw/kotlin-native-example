@@ -9,7 +9,7 @@ class ProductCell: UITableViewCell {
     var product: SOSProduct! {
         didSet {
             nameLabel.text = product.getName()
-            priceLabel.text = "€ \(product.getPrice())"
+            priceLabel.text = String(format: "€ %.2f", product.getPrice())
         }
     }
 }

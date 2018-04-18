@@ -10,7 +10,7 @@ class CartLineCell: UITableViewCell {
     var cartLine: SOSCartLine! {
         didSet {
             nameLabel.text = cartLine.getProduct().getName()
-            priceLabel.text = "€ \(cartLine.getProduct().getPrice())"
+            priceLabel.text = String(format: "€ %.2f", cartLine.getTotalPrice())
             quantityLabel.text = "\(cartLine.getQuantity())"
             nameLabel.lineBreakMode = .byWordWrapping
             nameLabel.numberOfLines = 0

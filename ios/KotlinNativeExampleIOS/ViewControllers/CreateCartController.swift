@@ -25,8 +25,17 @@ class CreateCartController: UIViewController {
             for i in 1...10 {
                 store.products.append(SOSProduct(name: "Playstation 4\(i)", price: 399.95, description: "Playstation 4 gaming console with description \(i)"))
             }
+            nameField.text = ""
         default:
             fatalError("No segue found")
+        }
+    }
+    
+   @IBAction func createCart() {
+        if let text = nameField.text {
+            if(text != "") {
+                performSegue(withIdentifier: "showStore", sender: self)
+            }
         }
     }
 }

@@ -10,7 +10,11 @@ class CheckoutViewController: UIViewController {
     override func viewDidLoad() {
         self.cart = CachingUtils.getCartFromCache()
         titleLabel.text = "Shopping cart: \(cart.name)"
-        priceLabel.text = "Total price: € \(cart.getTotalPrice())"
+        editTotalPrice()
+    }
+    
+    func editTotalPrice() {
+        priceLabel.text = String(format: "Total price: € %.2f", cart.getTotalPrice())
     }
 }
 
@@ -21,6 +25,7 @@ extension CheckoutViewController: UITableViewDelegate {
             let cartLine: SOSCartLine = self.cart.getCartLines()[indexPath.row]
             self.cart.removeCartLine(cartLine: cartLine)
             tableView.deleteRows(at: [indexPath], with: .automatic)
+            self.editTotalPrice()
             completionHandler(true)
         }
         return UISwipeActionsConfiguration(actions: [deleteAction])
