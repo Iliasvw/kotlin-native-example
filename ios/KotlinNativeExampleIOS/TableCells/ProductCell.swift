@@ -9,6 +9,7 @@ class ProductCell: UITableViewCell {
     
     var product: SOSProduct! {
         didSet {
+            productImage.image = UIImage(named: product.getProductImage())
             nameLabel.text = product.getName()
             priceLabel.text = String(format: "€ %.2f", product.getPrice())
         }

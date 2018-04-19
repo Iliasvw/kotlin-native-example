@@ -96,30 +96,34 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="productCell" rowHeight="100" id="2rO-gN-bd8" userLabel="productCell" customClass="ProductCell" customModule="KotlinNativeExampleIOS" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="28" width="375" height="100"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="productCell" rowHeight="174" id="2rO-gN-bd8" userLabel="productCell" customClass="ProductCell" customModule="KotlinNativeExampleIOS" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="375" height="174"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="2rO-gN-bd8" id="0Fe-Ji-M09">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="99.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="173.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="SNY-Ir-hX1">
-                                            <rect key="frame" x="8" y="8" width="359" height="83.5"/>
+                                            <rect key="frame" x="8" y="8" width="359" height="157.5"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="DHw-dd-ZW3">
-                                                    <rect key="frame" x="0.0" y="17" width="240" height="50"/>
+                                                    <rect key="frame" x="0.0" y="4" width="150" height="149.5"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="150" id="EkK-HO-BgE"/>
+                                                        <constraint firstAttribute="height" constant="150" id="JE0-rt-J4x"/>
+                                                    </constraints>
                                                 </imageView>
-                                                <stackView opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="751" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Bm0-8l-3jH">
-                                                    <rect key="frame" x="260" y="0.0" width="99" height="83.5"/>
+                                                <stackView opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="751" axis="vertical" distribution="fillEqually" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Bm0-8l-3jH">
+                                                    <rect key="frame" x="170" y="0.0" width="189" height="157.5"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mbZ-jb-BbY">
-                                                            <rect key="frame" x="0.0" y="0.0" width="43.5" height="20.5"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="43.5" height="75"/>
                                                             <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="749" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zto-NV-JKp">
-                                                            <rect key="frame" x="0.0" y="28.5" width="42" height="55"/>
+                                                            <rect key="frame" x="0.0" y="83" width="42" height="74.5"/>
                                                             <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
@@ -144,6 +148,7 @@
                                 <connections>
                                     <outlet property="nameLabel" destination="mbZ-jb-BbY" id="nNX-pS-FZa"/>
                                     <outlet property="priceLabel" destination="zto-NV-JKp" id="0sn-I8-x8V"/>
+                                    <outlet property="productImage" destination="DHw-dd-ZW3" id="Q1S-qb-JBJ"/>
                                     <segue destination="uk3-jM-yoo" kind="show" identifier="showProductDetails" id="lQr-qx-4Kc"/>
                                 </connections>
                             </tableViewCell>
@@ -302,6 +307,7 @@
                         <outlet property="nameLabel" destination="aBL-K2-Q07" id="khx-1g-JLU"/>
                         <outlet property="numberField" destination="N4N-xs-xJA" id="Cbp-7j-Ecz"/>
                         <outlet property="priceLabel" destination="XOu-Xl-XyS" id="mrj-rk-3kj"/>
+                        <outlet property="productImage" destination="JnD-xE-g4L" id="5M5-fW-kuG"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lwZ-oh-YoE" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -474,6 +480,6 @@
         <image name="ps4" width="300" height="281"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="p4W-G0-WFX"/>
+        <segue reference="swq-V8-4cz"/>
     </inferredMetricsTieBreakers>
 </document>

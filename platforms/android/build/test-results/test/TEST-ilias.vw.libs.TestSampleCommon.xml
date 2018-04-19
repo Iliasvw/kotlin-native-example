@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ilias.vw.libs.TestSampleCommon" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-04-17T09:10:14" hostname="MacBook-Pro-van-Ilias.local" time="0.016">
+<testsuite name="ilias.vw.libs.TestSampleCommon" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-04-19T06:26:09" hostname="MacBook-Pro-van-Ilias.local" time="0.014">
   <properties/>
-  <testcase name="testCheckPlatform" classname="ilias.vw.libs.TestSampleCommon" time="0.016"/>
+  <testcase name="testCheckPlatform" classname="ilias.vw.libs.TestSampleCommon" time="0.014"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

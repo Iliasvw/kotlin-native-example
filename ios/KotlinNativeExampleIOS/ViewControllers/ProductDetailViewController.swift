@@ -7,6 +7,7 @@ class ProductDetailViewController: UIViewController {
     @IBOutlet weak var priceLabel: UILabel!
     @IBOutlet weak var descriptionLabel: UILabel!
     @IBOutlet weak var numberField: UITextField!
+    @IBOutlet weak var productImage: UIImageView!
     @IBOutlet weak var addBtn: UIButton!
     var product: SOSProduct!
     private var cart: SOSCart!
@@ -21,6 +22,7 @@ class ProductDetailViewController: UIViewController {
         descriptionLabel.lineBreakMode = .byWordWrapping
         descriptionLabel.numberOfLines = 0
         self.cart = CachingUtils.getCartFromCache()
+        self.productImage.image = UIImage(named: product.getProductImage())
     }
     
     @IBAction func addCartLine() {
