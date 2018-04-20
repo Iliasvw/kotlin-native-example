@@ -16,7 +16,7 @@ actual class Product: Serializable {
     }
 
     actual fun getName(): String {
-        return "Android: " + this.name
+        return "Android: $name"
     }
 
     actual fun getPrice(): Double {

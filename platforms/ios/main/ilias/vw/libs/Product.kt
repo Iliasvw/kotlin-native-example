@@ -14,7 +14,7 @@ actual class Product {
     }
 
     actual fun getName(): String {
-        return "iOS: " + this.name
+        return "iOS: $name"
     }
 
     actual fun getPrice(): Double {
