@@ -31,6 +31,7 @@ class ProductDetailActivity : AppCompatActivity() {
                 .centerCrop().into(detail_productImage)
         detail_description.text = product.getDescription()
         detail_name.text = product.getName()
+        detail_price.text = "€ " + product.getPrice().toString()
 
         add_product.setOnClickListener({
             var amount = product_amount.text.toString()
